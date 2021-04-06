@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+body {
+  background-color: #282828;
+}
+
 h1 {
   font-size: 16vw;
   font-family: "Fira Code";
+  color: #ebdbb2;
+
   text-align: center;
+
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.snses {
+  font-size: 2vw;
+  font-family: "Fira Code";
+  color: #ebdbb2;
+  text-align: center;
+
+  animation-delay: 0.5s;
+  animation-duration: 1s;
 }
