@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   "homepage": "https://github.com/NULLCT/NULLCT.github.io#readme",
   "dependencies": {
     "animate.css": "^4.1.1",
-    "ityped": "^1.0.3"
+    "ityped": "^1.0.3",
+    "webpack": "^5.30.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
   }
 }
