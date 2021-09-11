@@ -35,16 +35,16 @@
 <style scoped>
 h1 {
   color: #ebdbb2;
-  font-size: 4rem;
+  font-size: 12vw;
 }
 
 h2 {
   color: #a89984;
-  font-size: 1rem;
+  font-size: 2vw;
 }
 
 svg {
-  width: 8%;
+  width: 6vw;
 }
 
 path {
@@ -64,13 +64,14 @@ path:hover {
 
   width: 100%;
   min-height: 100%;
+  font-size: 100%;
   background-color: #282828;
 }
 
 .icons {
   display: flex;
   justify-content: center; /* 子要素をflexboxにより中央に配置する */
-  gap: 10%;
+  gap: 16vw;
 }
 
 .discord:hover {
