@@ -3,7 +3,7 @@
     <h1>
       Hi there
     </h1>
-    <h2 class="subtitle is-3">
+    <h2 class="subtitle">
       NULLCT.github.io
     </h2>
     <div class="icons">
@@ -35,12 +35,12 @@
 <style scoped>
 h1 {
   color: #ebdbb2;
-  font-size: 10em;
+  font-size: 4rem;
 }
 
 h2 {
   color: #a89984;
-  font-size: 10em;
+  font-size: 1rem;
 }
 
 svg {
