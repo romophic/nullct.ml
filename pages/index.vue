@@ -30,6 +30,7 @@
 </template>
 
 <script>
+console.log('This site is WIP')
 </script>
 
 <style scoped>
