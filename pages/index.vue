@@ -8,7 +8,7 @@
     </h2>
     <div class="icons">
       <!--AtCoder-->
-      <div class="icons">
+      <div class="icon">
         <a href="https://atcoder.jp/users/YutoCT" target="_blank" class="atcoder">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 380.84">
             <path
@@ -597,8 +597,8 @@
       </div>
 
       <!--Discord-->
-      <div class="icons">
-        <a href="#" target="_blank" class="discord">
+      <div class="icon">
+        <a class="discord" @click="displayDiscord()">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path
               class="discordsvg"
@@ -609,7 +609,7 @@
       </div>
 
       <!--GitHub-->
-      <div class="icons">
+      <div class="icon">
         <a href="https://github.com/NULLCT" target="_blank" class="github">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path
@@ -621,7 +621,7 @@
       </div>
 
       <!--Twitter-->
-      <div class="icons">
+      <div class="icon">
         <a href="https://twitter.com/nurinullnure" target="_blank" class="twitter">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path
@@ -636,20 +636,36 @@
 </template>
 
 <script>
+export default {
+  methods: {
+    displayDiscord () {
+      this.$buefy.dialog.alert('NULLCT#3388')
+    }
+  }
+}
 </script>
 
 <style scoped>
 h1 {
+  display: flex; /* 子要素をflexboxで揃える */
   color: #ebdbb2;
-  font-size: 12vw;
+  font-size: 18vw;
+
+  animation: fadeInUp;
+  animation-duration: 2s;
 }
 
 h2 {
+  display: flex; /* 子要素をflexboxで揃える */
   color: #a89984;
-  font-size: 2vw;
+  font-size: 3vw;
+
+  animation: fadeInUp;
+  animation-duration: 3s;
 }
 
 svg {
+  display: flex; /* 子要素をflexboxで揃える */
   width: 6vw;
 }
 
@@ -659,8 +675,8 @@ a path {
 }
 
 .main {
-  position: absolute;
   display: flex; /* 子要素をflexboxで揃える */
+  position: absolute;
   flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
   justify-content: center; /* 子要素をflexboxにより中央に配置する */
   align-items: center; /* 子要素をflexboxにより中央に配置する */
@@ -674,7 +690,12 @@ a path {
 .icons {
   display: flex;
   justify-content: center; /* 子要素をflexboxにより中央に配置する */
-  gap: 16vw;
+  align-items: center;
+  gap: 12vw;
+  margin: 4vw;
+
+  animation: bounceInUp;
+  animation-duration: 3s;
 }
 
 .atcoder:hover .atcodersvg {
