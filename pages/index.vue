@@ -647,7 +647,7 @@ export default {
 
 <style scoped>
 h1 {
-  display: flex; /* 子要素をflexboxで揃える */
+  display: flex;
   color: #ebdbb2;
   font-size: 18vw;
 
@@ -656,7 +656,7 @@ h1 {
 }
 
 h2 {
-  display: flex; /* 子要素をflexboxで揃える */
+  display: flex;
   color: #a89984;
   font-size: 3vw;
 
@@ -665,7 +665,7 @@ h2 {
 }
 
 svg {
-  display: flex; /* 子要素をflexboxで揃える */
+  display: flex;
   width: 6vw;
 }
 
@@ -675,11 +675,11 @@ a path {
 }
 
 .main {
-  display: flex; /* 子要素をflexboxで揃える */
+  display: flex;
   position: absolute;
-  flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
-  justify-content: center; /* 子要素をflexboxにより中央に配置する */
-  align-items: center; /* 子要素をflexboxにより中央に配置する */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   width: 100%;
   min-height: 100%;
@@ -689,7 +689,7 @@ a path {
 
 .icons {
   display: flex;
-  justify-content: center; /* 子要素をflexboxにより中央に配置する */
+  justify-content: center;
   align-items: center;
   gap: 12vw;
   margin: 4vw;
@@ -702,15 +702,15 @@ a path {
   fill: #b8bb26;
 }
 
+.discord:hover .discordsvg {
+  fill: #7289da;
+}
+
 .github:hover .githubsvg {
   fill: #ffffff;
 }
 
 .twitter:hover .twittersvg {
   fill: #00acee;
-}
-
-.discord:hover .discordsvg {
-  fill: #7289da;
 }
 </style>
