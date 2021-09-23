@@ -636,6 +636,7 @@
 </template>
 
 <script>
+console.log('Look behind you')
 export default {
   methods: {
     displayDiscord () {
