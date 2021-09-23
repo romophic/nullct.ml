@@ -49,7 +49,8 @@ export default {
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/google-gtag'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -57,5 +58,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  'google-gtag': {
+    id: 'G-92Y4B459ND',
+    debug: true
   }
 }
