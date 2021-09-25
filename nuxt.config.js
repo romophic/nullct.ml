@@ -20,7 +20,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'NULLCT.github.io' },
       { hid: 'keywords', name: 'keywords', content: 'nullct, atcoder, discord, github, twitter, homepage' },
-      { name: 'google-site-verification', content: '_r_ppu8AaxzsBL9H9jiizCZ02sImb1fOS7F48UjU2V0'}
+      { name: 'google-site-verification', content: '_r_ppu8AaxzsBL9H9jiizCZ02sImb1fOS7F48UjU2V0' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
