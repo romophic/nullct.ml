@@ -17,8 +17,7 @@
     "animate.css": "^4.1.1",
     "core-js": "^3.14.0",
     "nuxt": "^2.15.3",
-    "nuxt-buefy": "^0.4.4",
-    "vivus": "^0.4.6"
+    "nuxt-buefy": "^0.4.4"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
