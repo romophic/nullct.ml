@@ -1,5 +1,3 @@
-const main_base_URL = 'https://nullct.github.io'
-
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -65,13 +63,9 @@ export default {
 
   sitemap: {
     path: './sitemap.xml',
-    hostname: main_base_URL,
+    hostname: 'https://nullct.github.io',
     generate: true,
     exclude: []
-  },
-
-  env: {
-    main_base_URL
   },
 
   'google-gtag': {
