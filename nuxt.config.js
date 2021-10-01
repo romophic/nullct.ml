@@ -1,3 +1,5 @@
+const main_base_URL = 'https://nullct.github.io'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -51,14 +53,25 @@ export default {
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/google-gtag'
+    '@nuxtjs/google-gtag',
+    '@nuxtjs/sitemap'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
+  build: {},
+
+  sitemap: {
+    path: './sitemap.xml',
+    hostname: main_base_URL,
+    generate: true,
+    exclude: []
+  },
+
+  env: {
+    main_base_URL
   },
 
   'google-gtag': {
