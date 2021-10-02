@@ -62,10 +62,7 @@ export default {
   build: {},
 
   sitemap: {
-    path: './sitemap.xml',
     hostname: 'https://nullct.github.io',
-    generate: true,
-    exclude: []
   },
 
   'google-gtag': {
