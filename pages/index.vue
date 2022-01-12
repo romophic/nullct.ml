@@ -622,7 +622,7 @@
 
       <!--Twitter-->
       <div class="icon">
-        <a href="https://twitter.com/nurinullnure" target="_blank" class="twitter">
+        <a href="https://twitter.com/nullct_" target="_blank" class="twitter">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="logos">
             <path
               class="twittersvg"
