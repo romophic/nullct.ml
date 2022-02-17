@@ -62,7 +62,7 @@ export default {
   build: {},
 
   sitemap: {
-    hostname: 'https://nullct.github.io',
+    hostname: 'https://nullct.github.io'
   },
 
   'google-gtag': {
