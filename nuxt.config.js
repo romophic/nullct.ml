@@ -18,8 +18,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'NULLCT.github.io' },
-      { hid: 'keywords', name: 'keywords', content: 'nullct, atcoder, discord, github, twitter, homepage' },
+      { hid: 'description', name: 'description', content: 'nullct.ml' },
+      { hid: 'keywords', name: 'keywords', content: 'nullct, atcoder, discord, github, kaggle, omc, online math contest, twitter, homepage, nullct.ml,meishi' },
       { name: 'google-site-verification', content: '_r_ppu8AaxzsBL9H9jiizCZ02sImb1fOS7F48UjU2V0' }
     ],
     link: [
