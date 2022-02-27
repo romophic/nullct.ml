@@ -2,7 +2,7 @@
   <div class="main">
     <h1>Hi there</h1>
     <h2 class="subtitle">
-      NULLCT.github.io
+      nullct.ml
     </h2>
     <div class="icons">
       <!--AtCoder-->
