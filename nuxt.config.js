@@ -52,7 +52,8 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/google-gtag',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -68,5 +69,10 @@ export default {
   'google-gtag': {
     id: 'G-92Y4B459ND',
     debug: true
+  },
+
+  robots: {
+    UserAgent: '*',
+    Sitemap: 'https://nullct.ml'
   }
 }
