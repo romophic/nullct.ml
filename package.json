@@ -16,7 +16,7 @@
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "animate.css": "^4.1.1",
-    "core-js": "^3.14.0",
+    "core-js": "^3.22.0",
     "nuxt": "^2.15.3",
     "nuxt-buefy": "^0.4.4"
   },
