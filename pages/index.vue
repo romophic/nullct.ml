@@ -1139,10 +1139,10 @@ a path {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12vw;
+  gap: 8vw;
   margin: 4vw;
 
-  animation: bounceInUp;
+  animation: backInDown;
   animation-duration: 2s;
 }
 
